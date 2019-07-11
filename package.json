@@ -1,0 +1,24 @@
+{
+  "name": "django-kickstart",
+  "version": "1.0.0",
+  "description": "### Basic REST API * pip3 install pipenv * pipenv shell * pipenv install django djangorestframework django-rest-knox * django-admin startproject leadmanager * cd leadmanager * python manage.py startapp leads * python manage.py makemigrations leads * python manage.py migrate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahmid-tanzim/django-kickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahmid-tanzim/django-kickstart/issues"
+  },
+  "homepage": "https://github.com/tahmid-tanzim/django-kickstart#readme",
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}

@@ -3,7 +3,7 @@ from rest_framework import viewsets, permissions
 from .serializers import LeadSerializer
 
 
-# Lead Viewset
+# Lead ViewSet
 class LeadViewSet(viewsets.ModelViewSet):
     queryset = Lead.objects.all()
     permission_classes = [
