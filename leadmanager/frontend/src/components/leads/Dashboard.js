@@ -4,10 +4,11 @@ import Leads from './Leads';
 
 export default function Dashboard() {
     return (
-        < Fragment >
-        < Form / >
-        < Leads / >
-        < /Fragment>
-)
-    ;
-}
+        < Fragment>
+            < Form / >
+            < Leads / >
+            <
+            /Fragment>
+            )
+            ;
+            }

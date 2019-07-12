@@ -1,18 +1,18 @@
 import axios from 'axios';
-import { GET_LEADS, DELETE_LEAD } from './types';
+import {GET_LEADS, DELETE_LEAD} from './types';
 
 export const getLeads = () => dispatch => {
     axios
-    .get('/api/leads/')
-    .then(res => {
-       dispatch({
-        type: GET_LEADS,
-        payload: res.data
-       })
-    })
-    .catch(err => {
-        console.log(err);
-    });
+        .get('/api/leads/')
+        .then(res => {
+            dispatch({
+                type: GET_LEADS,
+                payload: res.data
+            })
+        })
+        .catch(err => {
+            console.log(err);
+        });
 };
 
 export const deleteLead = (id) => dispatch => {
