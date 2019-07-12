@@ -5,8 +5,14 @@ import Leads from './Leads';
 export default function Dashboard() {
     return (
         <Fragment>
-            <Form/>
-            <Leads/>
+                <div className="row ">
+                    <div className="col-4">
+                        <Form/>
+                    </div>
+                    <div className="col-8">
+                       <Leads/>
+                    </div>
+                </div>
         </Fragment>
     );
 };

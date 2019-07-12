@@ -9,3 +9,4 @@
 * python manage.py startapp leads
 * python manage.py makemigrations leads
 * python manage.py migrate
+* python manage.py runserver

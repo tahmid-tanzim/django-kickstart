@@ -17,7 +17,8 @@ class Leads extends Component {
     render() {
         return (
             <Fragment>
-                <h2>Leads</h2>
+            <div className="card card-body mt-4 mb-4">
+                <h2>Lead List</h2>
                 <table className="table table-striped">
                     <thead>
                     <tr>
@@ -42,6 +43,7 @@ class Leads extends Component {
                     </tr>)}
                     </tbody>
                 </table>
+                </div>
             </Fragment>
         );
     }
