@@ -13,4 +13,4 @@ export const getLeads = () => dispatch => {
     .catch(err => {
         console.log(err);
     });
-}
+};
