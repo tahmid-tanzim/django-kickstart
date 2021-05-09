@@ -1,7 +1,7 @@
 # Django Kickstart
 
 ### Basic REST API
-* pip3 install pipenv
+* python3 -m pip install pipenv
 * pipenv shell
 * pipenv install django djangorestframework django-rest-knox
 * django-admin startproject leadmanager
